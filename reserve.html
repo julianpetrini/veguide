@@ -17,7 +17,7 @@
 </head>
 <body>
     <!--NAVBAR-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top navbar">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
             <img src="img/LOGO_W.png" alt="" width="100" height="24" class="d-inline-block align-text-top">
@@ -37,22 +37,38 @@
           </div>
         </div>
       </nav>
-<!--HERE STARTS CONTENT-->
+      <!--IMAGE HEADER-->
+<div class="text-center">
+  <img src="img/section_reserve.jpg" class="img-fluid"  alt="...">
+  </div>
+<!--CARD-->
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+<!--FORM-->
+<div class="container d-flex justify-content-center align-items-center py-5">
+  <div class="card">
+      <div class="row">
+          <div class="col-md-6">
+              <div class="form">
+                  <h2>Reserve your experience.</h2>
+                  <div class="inputbox mt-3"> <span>First Name</span> <input type="text" placeholder="Name" name="" class="form-control"> </div>
+                  <div class="inputbox mt-3"> <span>Email</span> <input type="text" placeholder="Email" name="" class="form-control"> </div>
+                  <div class="inputbox mt-3"> <span>Phone</span> <input type="text" placeholder="+1 455 445 4532" name="" class="form-control"> </div>
+                  <div class="d-flex justify-content-between align-items-center">
+                      <div class="text-right" target="_blank"> 
+                        <a href="img/confirmation.jpg">
+                        <button class="btn btn-success register btn-block">Reserve</button> </div>
+                      </a>  
+                  </div>
+                  <div class="form-check mt-2"> <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked> <label class="form-check-label" for="flexCheckChecked"> I agree to the terms and conditions of <a href="" class="login">Privacy & Policy</a> </label> </div>
+              </div>
+          </div>
+          <div class="col-md-6">
+              <div class="text-center mt-5"> <img src="img/form.png" width="400"> </div>
+          </div>
+      </div>
+  </div>
+</div>
 
 <!--HERE ENDS CONTENT-->
       <!--FOOTER-->
@@ -95,7 +111,15 @@
       </footer>
 
 
+<!-- Jquery JS-->
+<script src="vendor/jquery/jquery.min.js"></script>
+<!-- Vendor JS-->
+<script src="vendor/select2/select2.min.js"></script>
+<script src="vendor/datepicker/moment.min.js"></script>
+<script src="vendor/datepicker/daterangepicker.js"></script>
 
+<!-- Main JS-->
+<script src="js/global.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
